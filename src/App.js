@@ -1,21 +1,43 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+
+import { Link, Router } from '@reach/router';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <nav>
+          <Link to='/'>Главная</Link>
+          <Link to='cabinet'>Кабинет</Link>
+        </nav>
+        <Router>
+          <Home path='/' />
+          <Cabinet path='/cabinet' />
+          <Nomatch default />
+        </Router>
       </div>
+
     );
   }
 }
+
+const Home = () => (
+  <div>
+    It's HOME!
+    </div>
+)
+const Cabinet = () => (
+  <div>
+    It's Cabinet!
+    </div>
+)
+
+const Nomatch = () => (
+  <div>
+    404
+    </div>
+)
 
 export default App;
