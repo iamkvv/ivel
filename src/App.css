@@ -4,6 +4,38 @@
   margin: 20px auto;
 }
 
+.top-menu {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  list-style: none;
+  height: 46px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background: rgba(59, 89, 153, 1);
+  color: #fff;
+}
+
+.top-menu li:last-child {
+  margin-left: auto;
+}
+
+.top-menu li {
+  margin-right: 20px
+}
+
+.top-menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.fas, .fab {
+  color: #c1fcc0;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
