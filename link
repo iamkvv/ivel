@@ -2,3 +2,5 @@
 Vladimir Kondrashkin <vkondra@gmail.com>
 https://docs.google.com/presentation/d/e/2PACX-1vQQtgdJr-o4XbkpMg_QUoKwLMV8kKo6FuiA7yVokdboUsrfIYNwoPy5cJF7R9QqPW-jG_0j9i4rt2P9/pub?start=false&loop=false&delayms=3000&slide=id.g9369f94261_0_54
   
+from mymodule import *
+from module_2 import *
