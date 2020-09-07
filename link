@@ -16,6 +16,8 @@ https://jsonplaceholder.typicode.com/guide.html
   https://ab57.ru/cmdlist/ping.html
   https://ab57.ru/cmdlist/arp.html
   
+  http://infocisco.ru/ip_calculator.php
+  
   
 from mymodule import *
 from module_2 import *
